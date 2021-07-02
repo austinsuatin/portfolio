@@ -1,0 +1,249 @@
+html{
+	font-family: "Times New Roman";
+	cursor:default;
+	background: linear-gradient(red, green) no-repeat;
+	position: relative;
+	padding: 30px;
+
+}
+body{
+	width: 90%;
+	height: 100%;
+	min-width: 900px;
+}
+#container1{
+	background-color: rgb(120,130,234);
+	height: 37em;
+	width: 100%;
+	padding: 0px;
+	border:solid black 3px;
+	position: relative;
+	opacity: 90%;
+	min-width: 30em;
+}
+
+#bio{
+	background-color: yellow; 
+	border:solid black 3px;
+	width: 51%;
+	height: 80%;
+	margin-left: 20em;
+	position: absolute;
+	min-width: 300px;
+	padding: 8px;
+
+}
+#bios1{
+	margin-top: 1px;
+	left:10px;
+	border:solid black 3px;
+	/width: 10em;
+	height: 10em;
+	position: relative;
+	border-radius: 30px 30px 30px 0;
+	width: 90%;
+	padding: 20px;
+}
+.bios{
+	line-height: 30px;
+	/position: absolute;
+}
+#aboutme{
+	margin-top: 2em;
+	position: relative;
+	border:solid black 3px; 
+	left:10px;
+	border-radius: 30px 30px 30px 0;
+	width: 90%;
+	padding: 20px;
+	height: 10em;
+}
+#socialmedia{
+	background-color: blue;
+	right: 15%;
+	position: absolute;
+	bottom: 10px;
+	float: right;
+	margin:3px;
+	border:solid green 3px;
+	width: 30em;
+	padding: 5px;
+	height: 4em;
+}
+.handle{
+	border:solid black 3px;
+	display: inline-block;
+	position: relative;
+	margin: 4px;
+	padding: 3px;
+
+}
+.handle:hover{
+	cursor: pointer;
+}
+.icons{
+	width: 3em;
+	height: 3em;
+	/position: absolute;
+	margin: 2px;
+	bottom: 2px;
+}
+#pic{
+	height: 90%;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 1px;
+	margin-right: 500px;
+	float: left;
+	border:solid black 3px;
+	width: 45%;
+	min-width: 300px;
+}
+
+#profile{
+	height: 100%;
+	max-width: 300px;
+	width: 90%;
+	position: absolute;
+	border-top-left-radius:90px; 
+	border-bottom-right-radius: 90px;
+	border-top-right-radius: 90px;
+	box-shadow:  20px 10px 10px white;
+
+
+}
+.buttons{
+	border-bottom: solid grey;
+	position: relative;
+}
+#menu{
+	right: 20px;
+	float: right;
+	background-color: cyan;
+	position: relative;
+	border:solid black 3px;
+	width: 5%;
+	min-width: 10px;
+	border-radius: 10px;
+	padding: 4px;
+	height: 100%;
+}
+#menu-content{
+	position: absolute;
+	top: 40px;
+	right: 10%;
+	border:solid black 2px;
+	width: 9em;
+	z-index: 2;
+	height: 100%;
+	padding: 5px;
+	display: none;
+	
+}
+#menu-container{
+	border:solid black 3px;
+	padding: 4px;
+	position: absolute;
+	right: 10%;
+	height: 100%;
+}
+.menu-div{
+	width: 3px;
+	border:solid black 2px;
+	display: inline-block;
+	position: relative;
+	border-radius: 100%;
+}
+#menu-container:hover #menu-content{
+	display: unset;
+	background-color: grey;
+}
+#menu-container:hover{
+	cursor: pointer;
+}
+.buttons {
+	border-radius: 3px;
+	border:1px solid red;
+	padding: 3px;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+
+}
+
+.buttons:hover{
+	cursor: pointer;
+}
+#myname{
+	font-style: italic;
+	font-weight: bold;
+	position: relative;
+}
+#h1{
+	border-bottom: solid grey 2px;
+}
+#skills-container{
+	position: absolute;
+	top: 3px;
+	border:3px solid black;
+	padding: 5px;
+	width: 98%;
+	justify-content: flex-end;
+	height: 80%;
+}
+#skills{
+	border:solid black 3px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	height: 3em;
+	width: 30%;
+	display: inline-block;
+}
+meter{
+	width: 250px;
+	padding: 3px;
+	position: relative;
+	top: 2px;
+}
+meter:before{
+	content: '1%';
+	position: absolute;
+	left:0px;
+	margin-top: 10px;
+
+}
+meter:after{
+	content: '100%';
+	position: absolute;
+	right: 0px;
+}
+#container2{
+	margin: 10px;
+	position: relative;
+	height: 400px;
+	background-color: rgb(200,123,234);
+	border:3px solid black;
+}
+#container3{
+	border:solid black 3px;
+	padding: 2px;
+}
+/#my-resume{
+	border:solid black 3px;
+	margin-top: 2px;
+	width: 70px;
+}
+/#my-education{
+	border:solid black 3px;
+	margin-top: 2px;
+}
+/#my-resume:hover #content{
+	display:unset;
+	background-color: grey;
+}
+/#content{
+	display: none;
+}
+
+
