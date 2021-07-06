@@ -81,7 +81,7 @@ src: url("./fonts/Roboto-Regular.ttf");
 	top: 150px;
 	width: 400px;
 	max-width: 100%;
-	left: 100px;
+/* 	left: 100px; */
 	font-style: italic;
 }
 #aboutme2{
