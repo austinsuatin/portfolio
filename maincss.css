@@ -2,6 +2,10 @@
 
 src: url(./fonts/Roboto-Regular.ttf);
 } */
+*{
+	box-sizing: border-box;
+	
+}
 html{
 	background-color: rgb(238,238,238);
 	cursor: default;
@@ -35,6 +39,20 @@ body{
 	z-index: 5;
 	/* border-bottom: 0px solid black; */
 	/* scroll-behavior: l */
+}
+@media only screen and(max-width:400px){
+	#menu-bar{
+		background: turquoise;
+		color: blue;
+		opacity: 100%;
+		z-index: 0;
+		position: relative;
+	}
+	.headings{
+		font-size: 10px;
+		height: 60px;
+		border: 1px solid red;
+	}
 }
 #menu-button-container{
 left: 50px;

@@ -59,13 +59,87 @@ src: url("./fonts/Roboto-Regular.ttf");
 
 }
 #aboutme1{
-	font-size: 150px;
+	font-size: 130px;
 	font-weight: bolder;
 	color: rgba(90,90,90,0.8);
-	left: 30px;
+	/* left: 30px; */
 	top: 20px;
 	position: absolute;
 
+}
+@media only screen  and (max-width:400px)
+{
+	#aboutme1{
+		font-size: 50px;
+		top: 0;
+		position: relative;
+	}
+	#aboutme2{
+		display: none;
+	}
+	#aboutme-description{
+		left: 0px;
+		padding: 0;
+		/* box-sizing: border-box; */
+	}
+	#aboutme-conainer{
+	position: relative;
+	padding: 0;
+	top: 0px;
+	/* height: 350px; */
+	/* border:1px solid black; */
+	width: 100%;
+	}
+	#profile-container{
+		z-index: 0;
+		top: 55px;
+		height: 700px;
+		position: absolute;
+		/* display: inline-flex; */
+		border: 1px solid fuchsia;
+	}
+	#menu-bar{
+		height: 1000px;
+		z-index: 0;
+		background: skyblue;
+		position: absolute;
+		border: 1px solid gold;
+
+	}
+	#background-image{
+		display: none;
+		border: 1px solid red;
+		
+	}
+	#section2{
+		top: 600px;
+		position: relative;
+		height: 100px;
+		/* display: flex; */
+		border: 1px solid yellow;
+		/* display: none; */
+	}
+	#p-pic{
+		width: 100%;
+		position: absolute;
+		top: 0px;
+		border: 1px solid red;
+	}
+	#profile-description{
+		width: 100%;
+		height: 300px;
+		position: relative;
+		/* float: left; */
+		top: 300px;
+		border: 1px solid red;
+	}
+	#section3{
+		position: relative;
+		top: 900px;
+	}
+	#section1{
+		display: none;
+	}
 }
 #aboutme-conainer{
 	position: absolute;
@@ -92,15 +166,15 @@ src: url("./fonts/Roboto-Regular.ttf");
 	left: 50%;
 	position: absolute;
 }
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 	#aboutme2{
 		display: none;
 	}
 	#aboutme-description{
-		/* left: 0; */
+		left: 0;
 		padding-left: 20px;
 	}
-}
+} */
 /* #vertical-line{
 } */
 #section3 {
